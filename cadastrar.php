@@ -2,8 +2,6 @@
 // Incluindo a conexão com o banco de dados
 include 'db.php';
 
-echo "teste";
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Captura os dados do formulário
     $nome = $_POST['nome'];
